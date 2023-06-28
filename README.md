@@ -4,7 +4,9 @@
 
 # 설계 목표: MNIST extended dataset을 이용한 CNN 모델 최적화 및 분석 
 
-# 프로젝트 목표: MNIST extended dataset을 이용하여 직접 설계한 CNN 또는 pretrained CNN모델을 이 용하여 학습시키고 accuracy와 inference time의 적절한 조합을 찾는다. 직접 준비한 data instance에 대해 inference 결과를 얻어 학습 데이터의 테스트 결과와  비교하고 차이를 분석한다. ○ 프로젝트 수행 방법
+ 프로젝트 목표: MNIST extended dataset을 이용하여 직접 설계한 CNN 또는 pretrained CNN모델을 이 용하여 학습시키고 accuracy와 inference time의 적절한 조합을 찾는다. 직접 준비한 data instance에 대해 inference 결과를 얻어 학습 데이터의 테스트 결과와  비교하고 차이를 분석한다. 
+ 
+# 프로젝트 수행 방법
 
 1. MNIST extended dataset을 분석하고 LeNet-5와 ResNet-50를 이용하여 학습하고 
 결과를 비교한다. (baseline) Hyperparameter 변경을 통해 최적의 학습 결과를 얻는
